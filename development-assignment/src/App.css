@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+.App {
+  text-align: center;
+  background-color: #FDF1D5;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  height: 100vh;
+  font-family: serif;
+}
+
+
+.App-header {
+  background-color: #FDF1D5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  width: 100%; 
+}
+
+
+.left-column {
+  flex: 2;
+  padding-right: 20px;
+  background-color: #FDF1D5;
+}
+
+.right-column {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  background-color: #FDF1D5;
+  padding: 10px;
+}
+
+.header-content {
+  padding: 10px;
+}
+
+.button-container {
+  margin-top: 10px; 
+}
+
+.button-container button,
+.button-container select {
+  margin-right: 10px; 
+}
+
+.button-container button {
+  padding: 4px 8px; 
+  font-size: 14px; 
+}
+
+.button-container select {
+  margin-right: 10px;
+  padding: 2px 5px; 
+  font-size: 14px; 
+}
+
+.play-list {
+  margin-top: 20px; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  grid-gap: 20px; 
+  padding: 20px;
+  background-color: #FDF1D5;
+}
+
+.favorites {
+  border: 5px solid #996A46;
+  padding: 20px;
+  flex: 1;
+  background-color: #FDF1D5;
+}
+
+.favorites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorites li {
+  margin-bottom: 5px;
+}
+
+h1, h2 {
+  font-family: 'Uncial Antiqua';
+  color: #996A46;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

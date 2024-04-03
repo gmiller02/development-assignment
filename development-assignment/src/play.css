@@ -1,0 +1,25 @@
+
+.play {
+    border: 4px solid #996A46;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #fff;
+  }
+  
+  .play-image {
+    width: 60px; 
+    height: auto; 
+    border: 2px solid #fff; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .play-title {
+    margin-bottom: 10px; 
+  }
+  
+  .play-genre-year {
+    margin-bottom: 5px; 
+  }
